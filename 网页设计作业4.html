@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+   
+    <style type="text/css">
+       body{background: url(背景图片.jpg) no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: #cccccc;}
+        li{
+            float: left;
+            display: block;
+            padding: 8px;
+            color:white;
+            font-size: larger;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        div{
+            line-height: 500px;
+            height: 500px;
+            }
+            input{
+            width: 400px;
+            height: 35px;
+            margin: auto;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+             transition: width 0.4s ease-in-out;}
+             input[type=search]:focus{width:100%}
+             #content{margin: auto;
+        }
+        
+       
+        #search{
+            color: white;
+        }
+        #hy li {
+				float: left;
+			   width: 100px;
+				height: 40px;
+				text-align: center;							
+				line-height: 40px;
+			}
+
+			#hy li ul {
+				display: none;
+			}
+
+			#hy>li:hover ul {
+				display: block;
+
+			}
+
+			#hy li ul li {
+				background-color:#787373;
+				margin-bottom: 1px;
+			}
+   
+   
+        
+    </style>
+    <span >
+    <ul id=hy style="list-style-type:none;">
+        <li> <img src="微信图片_20230519145716.png" alt="logo" width="115px" style="float: left;"> </li>
+        <li><a href="https://cn.bing.com/images/trending?form=Z9LH">picture</a></li>
+        <li><a href="https://cn.bing.com/videos/trending?form=Z9LH1">video</a></li>
+        <li><a href="">more</a>
+            <ul>
+                <li><a href="https://map.baidu.com/@13400290,3526019,13z">map</a></li>
+                <li><a href="http://www.xinhuanet.com/">news</a></li>
+            </ul>
+        </li>
+    </ul>
+    </span>
+    <div id="box" >
+        <input type="search"name="search" >
+        <button type="button" >search</button>
+		 </div>
+        </body>
+</html>
